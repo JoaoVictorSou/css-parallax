@@ -16,8 +16,33 @@ body, html {
     text-align: justify;
     padding: 50px 80px;
 }
-h3 {
+.contentbox h3 {
     text-transform: uppercase;
     color: #111;
     text-align: center;
+}
+.contentbox p {
+    margin-top: 20px;
+}
+
+/*Imagens parallax*/
+.box1, .box2, .box3, .box4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    opacity: 0.7;
+}
+.box1 {
+    background-image: url(../img/imagem1.jpg);
+}
+.box2 {
+    background-image: url(../img/imagem2.jpg);
+}
+.box3 {
+    background-image: url(../img/imagem3.jpg);
+}
+.box4 {
+    background-image: url(../img/imagem4.jpg);
 }
