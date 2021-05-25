@@ -27,12 +27,29 @@ body, html {
 
 /*Imagens parallax*/
 .box1, .box2, .box3, .box4 {
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     height: 100%;
     opacity: 0.7;
+}
+.boxtitle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: 50px;
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 .box1 {
     background-image: url(../img/imagem1.jpg);
