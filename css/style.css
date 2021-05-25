@@ -1,0 +1,23 @@
+/*Configurações gerais*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html { 
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%; /*necessário para causar o efeito que as imagens preenchem todo o espaço (efeito parallax)*/
+}
+
+/*Caixas de conteúdo*/
+.contentbox {
+    color: #777;
+    background-color: #fff;
+    text-align: justify;
+    padding: 50px 80px;
+}
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
